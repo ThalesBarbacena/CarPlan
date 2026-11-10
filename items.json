@@ -1,0 +1,1708 @@
+[
+ {
+  "id": "LT-3F-POR-01",
+  "code": "POR",
+  "area": "LT",
+  "ph": "3F",
+  "name": "Pórtico P01 – entrada da LT Bom Nome II C1",
+  "tipo": "Pórtico de entrada de linha",
+  "stages": [
+   "F",
+   "S"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-VM-PR-01",
+  "code": "PR",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Para-raios de linha – VM",
+  "tipo": "Para-raios",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 5
+ },
+ {
+  "id": "LT-VM-TPC-01",
+  "code": "TPC",
+  "area": "LT",
+  "ph": "VM",
+  "name": "TPC – VM",
+  "tipo": "Transformador de potencial capacitivo",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 10
+ },
+ {
+  "id": "LT-VM-IP-01",
+  "code": "IP",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Isolador de pedestal – VM",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 15
+ },
+ {
+  "id": "LT-VM-CHV-01",
+  "code": "CHV",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Chave vertical c/ lâmina de terra – VM",
+  "tipo": "Chave seccionadora vertical",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 20.156
+ },
+ {
+  "id": "LT-VM-TC-01",
+  "code": "TC",
+  "area": "LT",
+  "ph": "VM",
+  "name": "TC – VM",
+  "tipo": "Transformador de corrente",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 25
+ },
+ {
+  "id": "LT-VM-CHS-01",
+  "code": "CHS",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Chave seccionadora s/ LT – VM",
+  "tipo": "Chave seccionadora s/ LT (abertura vertical)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 38
+ },
+ {
+  "id": "RE-VM-PR-01",
+  "code": "PR",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Para-raios do reator – VM",
+  "tipo": "Para-raios",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 45
+ },
+ {
+  "id": "RE-VM-IP-01",
+  "code": "IP",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Isolador de pedestal (tubo do reator) – VM",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-VM-RE-01",
+  "code": "RE",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Reator de linha a ar – VM",
+  "tipo": "Reator de linha a ar",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 61.5
+ },
+ {
+  "id": "RE-VM-IPN-01",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Isolador de neutro – VM",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 53
+ },
+ {
+  "id": "RE-VM-TCN-01",
+  "code": "TCN",
+  "area": "RE",
+  "ph": "VM",
+  "name": "TC de neutro – VM",
+  "tipo": "TC de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 54.5
+ },
+ {
+  "id": "RE-VM-IPN-02",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Isolador de neutro – VM",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 57
+ },
+ {
+  "id": "LT-VM-CAD-01",
+  "code": "CAD",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Cadeia de ancoragem P01 (lado LT) – VM",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-VM-CAD-02",
+  "code": "CAD",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Cadeia de ancoragem P01 (lado SE) – VM",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-VM-CB-01",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Vão LT → pórtico P01 – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": -7
+ },
+ {
+  "id": "LT-VM-CB-02",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Vão P01 → pórtico existente (eixo A) – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 58
+ },
+ {
+  "id": "LT-VM-CB-03",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Descida para o para-raios – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 6.5
+ },
+ {
+  "id": "LT-VM-CB-04",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Derivação para o TPC – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 9
+ },
+ {
+  "id": "LT-VM-CB-05",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Descida P01 → chave vertical – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 23
+ },
+ {
+  "id": "LT-VM-CB-06",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Ligação TPC/IP → chave vertical → TC (P1) – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-VM-CB-07",
+  "code": "CB",
+  "area": "LT",
+  "ph": "VM",
+  "name": "Ligação TC (P2) → chave seccionadora – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 30
+ },
+ {
+  "id": "RE-VM-TB-01",
+  "code": "TB",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Tubo chave → para-raios → reator – VM",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-VM-CN-01",
+  "code": "CN",
+  "area": "RE",
+  "ph": "VM",
+  "name": "Conexão de neutro do reator – VM",
+  "tipo": "Conexão de neutro",
+  "stages": [
+   "C"
+  ],
+  "x": 57
+ },
+ {
+  "id": "LT-BR-PR-01",
+  "code": "PR",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Para-raios de linha – BR",
+  "tipo": "Para-raios",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 5
+ },
+ {
+  "id": "LT-BR-TPC-01",
+  "code": "TPC",
+  "area": "LT",
+  "ph": "BR",
+  "name": "TPC – BR",
+  "tipo": "Transformador de potencial capacitivo",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 10
+ },
+ {
+  "id": "LT-BR-BB-01",
+  "code": "BB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Bobina de bloqueio – BR",
+  "tipo": "Bobina de bloqueio",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 15
+ },
+ {
+  "id": "LT-BR-CHV-01",
+  "code": "CHV",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Chave vertical c/ lâmina de terra – BR",
+  "tipo": "Chave seccionadora vertical",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 20.156
+ },
+ {
+  "id": "LT-BR-TC-01",
+  "code": "TC",
+  "area": "LT",
+  "ph": "BR",
+  "name": "TC – BR",
+  "tipo": "Transformador de corrente",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 25
+ },
+ {
+  "id": "LT-BR-CHS-01",
+  "code": "CHS",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Chave seccionadora s/ LT – BR",
+  "tipo": "Chave seccionadora s/ LT (abertura vertical)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 38
+ },
+ {
+  "id": "RE-BR-PR-01",
+  "code": "PR",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Para-raios do reator – BR",
+  "tipo": "Para-raios",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 45
+ },
+ {
+  "id": "RE-BR-IP-01",
+  "code": "IP",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Isolador de pedestal (tubo do reator) – BR",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-BR-RE-01",
+  "code": "RE",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Reator de linha a ar – BR",
+  "tipo": "Reator de linha a ar",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 61.5
+ },
+ {
+  "id": "RE-BR-IPN-01",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Isolador de neutro – BR",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 53
+ },
+ {
+  "id": "RE-BR-TCN-01",
+  "code": "TCN",
+  "area": "RE",
+  "ph": "BR",
+  "name": "TC de neutro – BR",
+  "tipo": "TC de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 54.5
+ },
+ {
+  "id": "RE-BR-IPN-02",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Isolador de neutro – BR",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 57
+ },
+ {
+  "id": "LT-BR-CAD-01",
+  "code": "CAD",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Cadeia de ancoragem P01 (lado LT) – BR",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-BR-CAD-02",
+  "code": "CAD",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Cadeia de ancoragem P01 (lado SE) – BR",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-BR-CB-01",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Vão LT → pórtico P01 – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": -7
+ },
+ {
+  "id": "LT-BR-CB-02",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Vão P01 → pórtico existente (eixo A) – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 58
+ },
+ {
+  "id": "LT-BR-CB-03",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Descida para o para-raios – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 6.5
+ },
+ {
+  "id": "LT-BR-CB-04",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Derivação para o TPC – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 9
+ },
+ {
+  "id": "LT-BR-CB-05",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Descida para a bobina de bloqueio – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 12
+ },
+ {
+  "id": "LT-BR-CB-06",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Descida P01 → chave vertical – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 23
+ },
+ {
+  "id": "LT-BR-CB-07",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Ligação BB → chave vertical → TC (P1) – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-BR-CB-08",
+  "code": "CB",
+  "area": "LT",
+  "ph": "BR",
+  "name": "Ligação TC (P2) → chave seccionadora – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 30
+ },
+ {
+  "id": "RE-BR-TB-01",
+  "code": "TB",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Tubo chave → para-raios → reator – BR",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-BR-CN-01",
+  "code": "CN",
+  "area": "RE",
+  "ph": "BR",
+  "name": "Conexão de neutro do reator – BR",
+  "tipo": "Conexão de neutro",
+  "stages": [
+   "C"
+  ],
+  "x": 57
+ },
+ {
+  "id": "LT-AZ-PR-01",
+  "code": "PR",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Para-raios de linha – AZ",
+  "tipo": "Para-raios",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 5
+ },
+ {
+  "id": "LT-AZ-TPC-01",
+  "code": "TPC",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "TPC – AZ",
+  "tipo": "Transformador de potencial capacitivo",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 10
+ },
+ {
+  "id": "LT-AZ-BB-01",
+  "code": "BB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Bobina de bloqueio – AZ",
+  "tipo": "Bobina de bloqueio",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 15
+ },
+ {
+  "id": "LT-AZ-CHV-01",
+  "code": "CHV",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Chave vertical c/ lâmina de terra – AZ",
+  "tipo": "Chave seccionadora vertical",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 20.156
+ },
+ {
+  "id": "LT-AZ-TC-01",
+  "code": "TC",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "TC – AZ",
+  "tipo": "Transformador de corrente",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 25
+ },
+ {
+  "id": "LT-AZ-CHS-01",
+  "code": "CHS",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Chave seccionadora s/ LT – AZ",
+  "tipo": "Chave seccionadora s/ LT (abertura vertical)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 38
+ },
+ {
+  "id": "RE-AZ-PR-01",
+  "code": "PR",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Para-raios do reator – AZ",
+  "tipo": "Para-raios",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 45
+ },
+ {
+  "id": "RE-AZ-IP-01",
+  "code": "IP",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Isolador de pedestal (tubo do reator) – AZ",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-AZ-RE-01",
+  "code": "RE",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Reator de linha a ar – AZ",
+  "tipo": "Reator de linha a ar",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 61.5
+ },
+ {
+  "id": "RE-AZ-IPN-01",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Isolador de neutro – AZ",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 53
+ },
+ {
+  "id": "RE-AZ-TCN-01",
+  "code": "TCN",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "TC de neutro – AZ",
+  "tipo": "TC de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 54.5
+ },
+ {
+  "id": "RE-AZ-IPN-02",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Isolador de neutro – AZ",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 57
+ },
+ {
+  "id": "LT-AZ-CAD-01",
+  "code": "CAD",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Cadeia de ancoragem P01 (lado LT) – AZ",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-AZ-CAD-02",
+  "code": "CAD",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Cadeia de ancoragem P01 (lado SE) – AZ",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-AZ-CB-01",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Vão LT → pórtico P01 – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": -7
+ },
+ {
+  "id": "LT-AZ-CB-02",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Vão P01 → pórtico existente (eixo A) – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 58
+ },
+ {
+  "id": "LT-AZ-CB-03",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Descida para o para-raios – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 6.5
+ },
+ {
+  "id": "LT-AZ-CB-04",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Derivação para o TPC – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 9
+ },
+ {
+  "id": "LT-AZ-CB-05",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Descida para a bobina de bloqueio – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 12
+ },
+ {
+  "id": "LT-AZ-CB-06",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Descida P01 → chave vertical – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 23
+ },
+ {
+  "id": "LT-AZ-CB-07",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Ligação BB → chave vertical → TC (P1) – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 20
+ },
+ {
+  "id": "LT-AZ-CB-08",
+  "code": "CB",
+  "area": "LT",
+  "ph": "AZ",
+  "name": "Ligação TC (P2) → chave seccionadora – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 30
+ },
+ {
+  "id": "RE-AZ-TB-01",
+  "code": "TB",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Tubo chave → para-raios → reator – AZ",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-AZ-CN-01",
+  "code": "CN",
+  "area": "RE",
+  "ph": "AZ",
+  "name": "Conexão de neutro do reator – AZ",
+  "tipo": "Conexão de neutro",
+  "stages": [
+   "C"
+  ],
+  "x": 57
+ },
+ {
+  "id": "RE-3F-CN-01",
+  "code": "CN",
+  "area": "RE",
+  "ph": "3F",
+  "name": "Barra de neutro comum",
+  "tipo": "Conexão de neutro",
+  "stages": [
+   "C"
+  ],
+  "x": 53
+ },
+ {
+  "id": "RE-RS-RE-01",
+  "code": "RE",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Reator de linha a ar – unidade reserva",
+  "tipo": "Reator de linha a ar",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 61.5
+ },
+ {
+  "id": "RE-RS-IPN-01",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Isolador de neutro – reserva",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 53
+ },
+ {
+  "id": "RE-RS-TCN-01",
+  "code": "TCN",
+  "area": "RE",
+  "ph": "RS",
+  "name": "TC de neutro – reserva",
+  "tipo": "TC de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 54.5
+ },
+ {
+  "id": "RE-RS-IPN-02",
+  "code": "IPN",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Isolador de neutro – reserva",
+  "tipo": "Isolador de pedestal de neutro",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 57
+ },
+ {
+  "id": "RE-RS-CN-01",
+  "code": "CN",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Conexão de neutro – reserva",
+  "tipo": "Conexão de neutro",
+  "stages": [
+   "C"
+  ],
+  "x": 57
+ },
+ {
+  "id": "RE-RS-IP-01",
+  "code": "IP",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Isolador de pedestal – reserva",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 45
+ },
+ {
+  "id": "RE-RS-IP-02",
+  "code": "IP",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Isolador de pedestal – reserva",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 50
+ },
+ {
+  "id": "RE-RS-TB-01",
+  "code": "TB",
+  "area": "RE",
+  "ph": "RS",
+  "name": "Tubo do reator reserva",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 50
+ },
+ {
+  "id": "LT-3F-BT-01",
+  "code": "BT",
+  "area": "LT",
+  "ph": "3F",
+  "name": "Barra de transferência (reator reserva)",
+  "tipo": "Barra de transferência",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 31
+ },
+ {
+  "id": "LT-3F-ALB-01",
+  "code": "ALB",
+  "area": "LT",
+  "ph": "3F",
+  "name": "Alambrado da entrada de linha",
+  "tipo": "Alambrado",
+  "stages": [
+   "S"
+  ],
+  "x": 0
+ },
+ {
+  "id": "RE-3F-ALB-01",
+  "code": "ALB",
+  "area": "RE",
+  "ph": "3F",
+  "name": "Alambrado do banco de reatores",
+  "tipo": "Alambrado",
+  "stages": [
+   "S"
+  ],
+  "x": 61.5
+ },
+ {
+  "id": "BA-VM-CAD-01",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Cadeia de ancoragem eixo A (lado LT) – VM",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-VM-CAD-02",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Cadeia de ancoragem eixo A (lado barra) – VM",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-VM-CB-01",
+  "code": "CB",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Jumper no pórtico eixo A – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-VM-CHV-01",
+  "code": "CHV",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Chave vertical s/ LT – VM",
+  "tipo": "Chave seccionadora vertical",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 108.5
+ },
+ {
+  "id": "BA-VM-IP-01",
+  "code": "IP",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Isolador de pedestal – VM",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 117
+ },
+ {
+  "id": "BA-VM-IP-02",
+  "code": "IP",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Isolador de pedestal – VM",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 125.5
+ },
+ {
+  "id": "BA-VM-DJ-01",
+  "code": "DJ",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Disjuntor 500 kV – VM",
+  "tipo": "Disjuntor 500 kV (polo)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 135.5
+ },
+ {
+  "id": "BA-VM-TC-01",
+  "code": "TC",
+  "area": "BA",
+  "ph": "VM",
+  "name": "TC – VM",
+  "tipo": "Transformador de corrente",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 144
+ },
+ {
+  "id": "BA-VM-CHS-01",
+  "code": "CHS",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Chave seccionadora s/ LT – VM",
+  "tipo": "Chave seccionadora s/ LT (abertura vertical)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 151
+ },
+ {
+  "id": "BA-VM-TB-01",
+  "code": "TB",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Tubo chave vertical → disjuntor – VM",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 119.75
+ },
+ {
+  "id": "BA-VM-CB-02",
+  "code": "CB",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Ligação tubo → disjuntor – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 132
+ },
+ {
+  "id": "BA-VM-CB-03",
+  "code": "CB",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Ligação disjuntor → TC (P1) – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 140.5
+ },
+ {
+  "id": "BA-VM-CB-04",
+  "code": "CB",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Ligação TC (P2) → chave seccionadora – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 146
+ },
+ {
+  "id": "BA-VM-CB-05",
+  "code": "CB",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Subida chave → pórtico existente – VM",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 158
+ },
+ {
+  "id": "BA-VM-CAD-03",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "VM",
+  "name": "Cadeia da subida no pórtico existente – VM",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 163
+ },
+ {
+  "id": "BA-BR-CAD-01",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Cadeia de ancoragem eixo A (lado LT) – BR",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-BR-CAD-02",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Cadeia de ancoragem eixo A (lado barra) – BR",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-BR-CB-01",
+  "code": "CB",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Jumper no pórtico eixo A – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-BR-CHV-01",
+  "code": "CHV",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Chave vertical s/ LT – BR",
+  "tipo": "Chave seccionadora vertical",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 117
+ },
+ {
+  "id": "BA-BR-IP-01",
+  "code": "IP",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Isolador de pedestal – BR",
+  "tipo": "Isolador de pedestal",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 125.5
+ },
+ {
+  "id": "BA-BR-DJ-01",
+  "code": "DJ",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Disjuntor 500 kV – BR",
+  "tipo": "Disjuntor 500 kV (polo)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 135.5
+ },
+ {
+  "id": "BA-BR-TC-01",
+  "code": "TC",
+  "area": "BA",
+  "ph": "BR",
+  "name": "TC – BR",
+  "tipo": "Transformador de corrente",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 144
+ },
+ {
+  "id": "BA-BR-CHS-01",
+  "code": "CHS",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Chave seccionadora s/ LT – BR",
+  "tipo": "Chave seccionadora s/ LT (abertura vertical)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 151
+ },
+ {
+  "id": "BA-BR-TB-01",
+  "code": "TB",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Tubo chave vertical → disjuntor – BR",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 124
+ },
+ {
+  "id": "BA-BR-CB-02",
+  "code": "CB",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Ligação tubo → disjuntor – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 132
+ },
+ {
+  "id": "BA-BR-CB-03",
+  "code": "CB",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Ligação disjuntor → TC (P1) – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 140.5
+ },
+ {
+  "id": "BA-BR-CB-04",
+  "code": "CB",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Ligação TC (P2) → chave seccionadora – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 146
+ },
+ {
+  "id": "BA-BR-CB-05",
+  "code": "CB",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Subida chave → pórtico existente – BR",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 158
+ },
+ {
+  "id": "BA-BR-CAD-03",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "BR",
+  "name": "Cadeia da subida no pórtico existente – BR",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 163
+ },
+ {
+  "id": "BA-AZ-CAD-01",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Cadeia de ancoragem eixo A (lado LT) – AZ",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-AZ-CAD-02",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Cadeia de ancoragem eixo A (lado barra) – AZ",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-AZ-CB-01",
+  "code": "CB",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Jumper no pórtico eixo A – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 96.5
+ },
+ {
+  "id": "BA-AZ-CHV-01",
+  "code": "CHV",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Chave vertical s/ LT – AZ",
+  "tipo": "Chave seccionadora vertical",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 125.5
+ },
+ {
+  "id": "BA-AZ-DJ-01",
+  "code": "DJ",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Disjuntor 500 kV – AZ",
+  "tipo": "Disjuntor 500 kV (polo)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 135.5
+ },
+ {
+  "id": "BA-AZ-TC-01",
+  "code": "TC",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "TC – AZ",
+  "tipo": "Transformador de corrente",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 144
+ },
+ {
+  "id": "BA-AZ-CHS-01",
+  "code": "CHS",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Chave seccionadora s/ LT – AZ",
+  "tipo": "Chave seccionadora s/ LT (abertura vertical)",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 151
+ },
+ {
+  "id": "BA-AZ-TB-01",
+  "code": "TB",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Tubo chave vertical → disjuntor – AZ",
+  "tipo": "Tubo de alumínio 5\" SH80",
+  "stages": [
+   "C"
+  ],
+  "x": 128.25
+ },
+ {
+  "id": "BA-AZ-CB-02",
+  "code": "CB",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Ligação tubo → disjuntor – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 132
+ },
+ {
+  "id": "BA-AZ-CB-03",
+  "code": "CB",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Ligação disjuntor → TC (P1) – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 140.5
+ },
+ {
+  "id": "BA-AZ-CB-04",
+  "code": "CB",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Ligação TC (P2) → chave seccionadora – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 146
+ },
+ {
+  "id": "BA-AZ-CB-05",
+  "code": "CB",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Subida chave → pórtico existente – AZ",
+  "tipo": "Cabo 4×CAA 954 MCM Rail",
+  "stages": [
+   "C"
+  ],
+  "x": 158
+ },
+ {
+  "id": "BA-AZ-CAD-03",
+  "code": "CAD",
+  "area": "BA",
+  "ph": "AZ",
+  "name": "Cadeia da subida no pórtico existente – AZ",
+  "tipo": "Cadeia de ancoragem",
+  "stages": [
+   "E"
+  ],
+  "x": 163
+ },
+ {
+  "id": "SX-3F-CAS-01",
+  "code": "CAS",
+  "area": "SX",
+  "ph": "3F",
+  "name": "Casa de controle / relés",
+  "tipo": "Casa de controle",
+  "stages": [
+   "F",
+   "S",
+   "E"
+  ],
+  "x": 102.8
+ },
+ {
+  "id": "SX-3F-GMG-01",
+  "code": "GMG",
+  "area": "SX",
+  "ph": "3F",
+  "name": "GMG1 – grupo motor-gerador",
+  "tipo": "Grupo motor-gerador",
+  "stages": [
+   "F",
+   "E"
+  ],
+  "x": 113.3
+ },
+ {
+  "id": "SX-3F-GMG-02",
+  "code": "GMG",
+  "area": "SX",
+  "ph": "3F",
+  "name": "GMG2 – grupo motor-gerador",
+  "tipo": "Grupo motor-gerador",
+  "stages": [
+   "F",
+   "E"
+  ],
+  "x": 118.3
+ },
+ {
+  "id": "SX-3F-SA-01",
+  "code": "SA",
+  "area": "SX",
+  "ph": "3F",
+  "name": "SA1 – transformador de serviços auxiliares",
+  "tipo": "Transformador de serviços auxiliares",
+  "stages": [
+   "F",
+   "E"
+  ],
+  "x": 123.3
+ },
+ {
+  "id": "LT-3F-CG-01",
+  "code": "CG",
+  "area": "LT",
+  "ph": "3F",
+  "name": "Cabo-guarda eixo 4 (LT → P01 → eixo A)",
+  "tipo": "Cabo-guarda",
+  "stages": [
+   "C"
+  ],
+  "x": 33
+ },
+ {
+  "id": "LT-3F-CG-02",
+  "code": "CG",
+  "area": "LT",
+  "ph": "3F",
+  "name": "Cabo-guarda eixo 5 (LT → P01 → eixo A)",
+  "tipo": "Cabo-guarda",
+  "stages": [
+   "C"
+  ],
+  "x": 33
+ }
+]
